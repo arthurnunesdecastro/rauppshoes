@@ -206,6 +206,7 @@
         width: 100%;
         height: 200px;
     }
+<<<<<<< HEAD
 }
 
 .payment-options {
@@ -299,4 +300,6 @@
         align-items: flex-start;
         gap: 10px;
     }
+=======
+>>>>>>> 8f2358f0f4c79fafc12e2c69fba6df8f1ddb2157
 }
