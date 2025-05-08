@@ -12,7 +12,7 @@
   .slider-track {
     display: flex;
     transition: transform 0.5s ease;
-    height: 760px; /* Adjust height as needed */
+    height: 810px; /* Adjust height as needed */
   }
   
   .slide {
