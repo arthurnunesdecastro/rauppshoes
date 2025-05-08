@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function goToSlide(index) {
-    // Wrap around if at ends
+    // Wrap aound if at ends
     if (index >= slides.length) index = 0;
     if (index < 0) index = slides.length - 1;
     

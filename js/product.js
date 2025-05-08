@@ -129,8 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
     
-<<<<<<< HEAD
-    // Payment method selection
+    // Payment method seletion
     const paymentMethods = document.querySelectorAll('.payment-method');
     paymentMethods.forEach(method => {
         method.addEventListener('click', () => {
@@ -148,9 +147,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-=======
-    
->>>>>>> 8f2358f0f4c79fafc12e2c69fba6df8f1ddb2157
 
 });
 

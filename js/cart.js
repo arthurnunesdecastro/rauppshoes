@@ -1,7 +1,7 @@
 // Cart functionality
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
-// DOM Elements
+// DOM Elemets
 const cartIcon = document.querySelector('.cart-icon');
 const cartCount = document.querySelector('.cart-count');
 const emptyCartMessage = document.querySelector('.empty-cart');
