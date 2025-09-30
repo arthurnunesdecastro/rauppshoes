@@ -1,0 +1,47 @@
+{
+  "jordan-1": {
+    "name": "Air Jordan 1",
+    "price": 1199.99,
+    "originalPrice": 1299.99,
+    "discount": "-8% OFF",
+    "installments": "10x de R$119,99 sem juros",
+    "images": [
+      "img/shoes/jordan1 1.webp",
+      "img/shoes/jordan1 2.webp",
+      "img/shoes/jordan1 3.webp"
+    ],
+    "description": "O Air Jordan 1 revolucionou o mundo dos tênis em 1985. Com design icônico, é símbolo de autenticidade e estilo nas quadras e nas ruas.",
+    "rating": 5.0,
+    "reviewCount": 2023
+  },
+  "jordan-4": {
+    "name": "Air Jordan 4",
+    "price": 1399.90,
+    "originalPrice": 1499.90,
+    "discount": "-7% OFF",
+    "installments": "10x de R$139,99 sem juros",
+    "images": [
+      "img/shoes/jordan4 1.webp",
+      "img/shoes/jordan4 2.webp",
+      "img/shoes/jordan4 3.webp"
+    ],
+    "description": "O Air Jordan 4 apresenta detalhes marcantes, como a rede lateral e o suporte de calcanhar. Um modelo robusto e cheio de personalidade",
+    "rating": 4.9,
+    "reviewCount": 521
+  },
+  "vans-knu-skool": {
+    "name": "Vans Knu Skool",
+    "price": 479.99,
+    "originalPrice": 529.99,
+    "discount": "-9% OFF",
+    "installments": "6x de R$80,00 sem juros",
+    "images": [
+      "img/shoes/vans knu skoll 1.webp",
+      "img/shoes/vans knu skool 2.webp",
+      "img/shoes/vans knu skool 3.webp"
+    ],
+    "description": "Com shape volumoso e sola reforçada, o Vans Knu Skool atualiza o estilo retrô com um toque moderno. Ideal para quem busca autenticidade e atitude.",
+    "rating": 4.7,
+    "reviewCount": 1285
+  }
+}

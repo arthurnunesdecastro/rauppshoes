@@ -1,0 +1,137 @@
+{
+  "adidas-campus": {
+    "name": "Adidas Campus",
+    "price": 549.99,
+    "originalPrice": 599.99,
+    "discount": "-8% OFF",
+    "installments": "6x de R$91,66 sem juros",
+    "images": [
+      "img/shoes/ADIDAS CAMPUS 3.webp",
+      "img/shoes/ADIDAS CAMPUS 4.webp",
+      "img/shoes/ADIDAS CAMPUS 5.webp"
+    ],
+    "description": "O Adidas Campus é um clássico atemporal, feito com camurça premium e acabamento minimalista. Ideal para o dia a dia, combina estilo urbano com conforto excepcional.",
+    "rating": 4.5,
+    "reviewCount": 128
+  },
+  "adidas-samba": {
+    "name": "Adidas Samba",
+    "price": 499.90,
+    "originalPrice": 549.90,
+    "discount": "-9% OFF",
+    "installments": "6x de R$83,32 sem juros",
+    "images": [
+      "img/shoes/ADIDAS SAMBA 3.webp",
+      "img/shoes/ADIDAS SAMBA 2.webp",
+      "img/shoes/ADIDAS SAMBA 1.webp"
+    ],
+    "description": "Com raízes no futebol, o Adidas Samba tornou-se um ícone da moda urbana. Seu design retrô, solado de borracha e couro de alta qualidade garantem estilo e durabilidade.",
+    "rating": 4.3,
+    "reviewCount": 256
+  },
+  "adidas-yeezy-350": {
+    "name": "Adidas Yeezy 350",
+    "price": 1499.00,
+    "originalPrice": 1799.00,
+    "discount": "-17% OFF",
+    "installments": "10x de R$149,90 sem juros",
+    "images": [
+      "img/shoes/ADIDAS YEEZY 350 3.webp",
+      "img/shoes/ADIDAS YEEZY 350 2.webp",
+      "img/shoes/ADIDAS YEEZY 350 4.webp"
+    ],
+    "description": "Criado em colaboração com Kanye West, o Yeezy Boost 350 é conhecido por seu design futurista e conforto extremo graças à tecnologia Boost. Uma peça desejada por sneakerheads",
+    "rating": 4.6,
+    "reviewCount": 141
+  },
+  "jordan-1": {
+    "name": "Air Jordan 1",
+    "price": 1199.99,
+    "originalPrice": 1299.99,
+    "discount": "-8% OFF",
+    "installments": "10x de R$119,99 sem juros",
+    "images": [
+      "img/shoes/jordan1 1.webp",
+      "img/shoes/jordan1 2.webp",
+      "img/shoes/jordan1 3.webp"
+    ],
+    "description": "O Air Jordan 1 revolucionou o mundo dos tênis em 1985. Com design icônico, é símbolo de autenticidade e estilo nas quadras e nas ruas.",
+    "rating": 5.0,
+    "reviewCount": 2023
+  },
+  "jordan-4": {
+    "name": "Air Jordan 4",
+    "price": 1399.90,
+    "originalPrice": 1499.90,
+    "discount": "-7% OFF",
+    "installments": "10x de R$139,99 sem juros",
+    "images": [
+      "img/shoes/jordan4 1.webp",
+      "img/shoes/jordan4 2.webp",
+      "img/shoes/jordan4 3.webp"
+    ],
+    "description": "O Air Jordan 4 apresenta detalhes marcantes, como a rede lateral e o suporte de calcanhar. Um modelo robusto e cheio de personalidade.",
+    "rating": 4.9,
+    "reviewCount": 521
+  },
+  "nike-dunk": {
+    "name": "Nike Dunk Low",
+    "price": 799.99,
+    "originalPrice": 899.99,
+    "discount": "-11% OFF",
+    "installments": "8x de R$100,00 sem juros",
+    "images": [
+      "img/shoes/NIKE DUNK 1.webp",
+      "img/shoes/NIKE DUNK 2.webp",
+      "img/shoes/NIKE DUNK 3.webp"
+    ],
+    "description": "Lançado inicialmente como tênis de basquete, o Nike Dunk ganhou as ruas com seu design versátil, tornando-se favorito entre skatistas e fashionistas.",
+    "rating": 4.7,
+    "reviewCount": 354
+  },
+  "nike-full-force-low": {
+    "name": "Nike Full Force Low",
+    "price": 699.00,
+    "originalPrice": 799.00,
+    "discount": "-13% OFF",
+    "installments": "6x de R$116,50 sem juros",
+    "images": [
+      "img/shoes/NIKE FULL FORCE LOW 3.webp",
+      "img/shoes/NIKE FULL FORCE LOW 2.webp",
+      "img/shoes/NIKE FULL FORCE LOW 1.webp"
+    ],
+    "description": "Com visual inspirado nos clássicos dos anos 80, o Nike Full Force Low traz um estilo retrô com toque moderno, ideal para compor visuais casuais.",
+    "rating": 4.9,
+    "reviewCount": 3267
+  },
+  "air-force-1": {
+    "name": "Air Force 1",
+    "price": 479.99,
+    "originalPrice": 529.99,
+    "discount": "-9% OFF",
+    "installments": "6x de R$80,00 sem juros",
+    "images": [
+      "img/shoes/airforce1.webp",
+      "img/shoes/airforce2.avif",
+      "img/shoes/airforce3.avif"
+    ],
+    "description": "Lançado em 1982, o Nike Air Force 1 se tornou um ícone da cultura sneaker. Com entressola robusta, cabedal em couro e conforto inigualável, é perfeito tanto para looks casuais quanto urbanos. Um verdadeiro clássico que atravessa gerações com autenticidade.",
+    "rating": 4.9,
+    "reviewCount": 8780
+  },
+  "vans-knu-skool": {
+    "name": "Vans Knu Skool",
+    "price": 479.99,
+    "originalPrice": 529.99,
+    "discount": "-9% OFF",
+    "installments": "6x de R$80,00 sem juros",
+    "images": [
+      "img/shoes/vans knu skoll 1.webp",
+      "img/shoes/vans knu skool 2.webp",
+      "img/shoes/vans knu skool 3.webp"
+    ],
+    "description": "Com shape volumoso e sola reforçada, o Vans Knu Skool atualiza o estilo retrô com um toque moderno. Ideal para quem busca autenticidade e atitude.",
+    "rating": 4.7,
+    "reviewCount": 1285
+  }
+}

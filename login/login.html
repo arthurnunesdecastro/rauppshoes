@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login · Raupp Shoes</title>
+    <link rel="icon" type="image/x-icon" href="../img/raupp_shoes_logo_transparent.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="login.css"> 
+</head>
+<body>
+    <div class="image-section"></div>
+    
+    <div class="form-section">
+        <img src="../img/raupp_shoes_logo_transparent.png" alt="Raupp Shoes" class="logo">
+        
+        <div class="form-container">
+            <div class="form-toggle">
+                <div class="toggle-btn active" onclick="showForm('login')">Entrar</div>
+                <div class="toggle-btn" onclick="showForm('signup')">Criar conta</div>
+            </div>
+            
+            <form id="login-form" class="form active">
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="E-mail" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Senha" required>
+                </div>
+                
+                <button type="submit">Entrar</button>
+                
+                <div class="forgot-password">
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+                
+                <div class="divider">
+                    <span>ou</span>
+                </div>
+                
+                <div class="social-login">
+                    <div class="social-btn">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="social-btn">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="social-btn">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                </div>
+            </form>
+            
+            <form id="signup-form" class="form">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Nome completo" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="E-mail" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Senha" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Confirmar senha" required>
+                </div>
+                
+                <button type="submit">Criar conta</button>
+                
+                <div class="divider">
+                    <span>ou</span>
+                </div>
+                
+                <div class="social-login">
+                    <div class="social-btn">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="social-btn">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="social-btn">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const showForm = (formType) => {
+            document.querySelectorAll('.toggle-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.currentTarget.classList.add('active');
+            
+            document.getElementById('login-form').classList.remove('active');
+            document.getElementById('signup-form').classList.remove('active');
+            document.getElementById(formType + '-form').classList.add('active');
+        }
+    </script>
+</body>
+</html>
