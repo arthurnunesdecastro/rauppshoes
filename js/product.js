@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         localStorage.setItem('cart', JSON.stringify(cart));
-        
+
         updateCartCount();
 
         animateCartNotification(name, size);
@@ -73,17 +73,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="product-gallery">
                     <div class="thumbnail-images">
                         <div class="thumbnail">
-                            <img src="../${product.images[0]}" alt="BAGGY WASHED GREEN">
+                            <img src="../${product.images[0]}" alt="">
                         </div>
                         <div class="thumbnail">
-                            <img src="../${product.images[1]}" alt="BAGGY WASHED GREEN">
+                            <img src="../${product.images[1]}" alt="">
                         </div>
                         <div class="thumbnail">
-                            <img src="../${product.images[2]}" alt="BAGGY WASHED GREEN">
+                            <img src="../${product.images[2]}" alt="">
                         </div>
                     </div>
                     <div class="main-image">
-                        <img src="../${product.images[0]}" alt="BAGGY WASHED GREEN">
+                        <img src="../${product.images[0]}" alt="B">
                     </div>
                 </div>
 
